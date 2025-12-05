@@ -12,7 +12,9 @@ const Navbar = () => {
           {/* Logo Circle Gradient */}
           <div className="w-10 h-10 rounded-full bg-linear-to-br from-purple-500 to-indigo-600 flex items-center justify-center overflow-hidden">
              {/* Jika punya gambar logo asli, uncomment baris bawah ini */}
-             {/* <img src="/assets/logo.png" alt="Logo" className="w-full h-full object-cover" /> */}
+              <img src="Logo.svg" alt="Logo" className="w-8 h-8 object-contain" />
+             {/* <div className="w-8 h-8 bg-white rounded-full"></div> */}
+          </div>
              <div className="w-4 h-4 bg-white rounded-full opacity-50 mix-blend-overlay"></div>
           </div>
         </div>
@@ -37,7 +39,6 @@ const Navbar = () => {
         >
           Contact us
         </button>
-      </div>
     </nav>
   );
 };
